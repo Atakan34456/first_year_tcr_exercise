@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    font-family: "Goldman", cursive;
+    background: black;
+    background-image: url(C:\Users\Atakan Kemal Erdem\OneDrive - Zadkine\opdracht 5.1\img\background.jpeg);
+   
+  }
+   
+  /* titles */
+  h1, h2 {
+  color: white;
+  text-align: center;
+  }
+   
+  h1 {
+  font-size: 80px;
+  margin: 45vh 0 10vh;
+  }
+   
+  h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 4vh;
+  }
+   
+  /* Flexbox container voor afbeelding en tekt */
+  .section-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15vh 0;
+  gap: 2rem;
+  }
+   
+  .description {
+  color: white;
+  font-size: 24px;
+  width: 40%;
+  margin: 0;
+  }
+   
+  .section-conttent img {
+  width: 30%;
+  max-width: 200px;
+  height: 20px;
+  }
+   
+  /* Navigatiebalk */
+  nav {
+  display: flex;
+  width: 100vw;
+  padding: 20px;
+  background: #00a8c7;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  }
+   
+  nav ul {
+  display: flex;
+  list-style: none;
+  }
+   
+  nav li {
+  font-size: 25px;
+  padding: 0 4rem;
+  }
+   
+  nav a {
+  color: white;
+  text-decoration: none;
+  }
+   
+  nav img {
+  width: 5vw;
+  }
+   
+  /* voettekst */
+  footer {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background: #00a8c7;
+  justify-content: center;
+  align-items: center;
+  }
+   
+  footer h2 {
+  font-size: 24px;
+  color: white;
+  }
